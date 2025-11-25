@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    background: #5199d86f;
+    padding: 20px;
+    font-weight: bold;
+}
+.navbar a {
+    text-decoration: none;
+    color: #0c387b;
+}
+
+.settings {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    text-align: center; 
+    color: #0c387b;
+}
+label {
+    display: block;
+    text-align: left;
+    width: 300px;
+    margin: 0 auto 2px auto;
+    color: #0c387b;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+    text-align: center; 
+    border-radius: 10px;  
+    border: 2px solid #0c387b;
+}
+
+input:focus {
+    border: 2px solid #0c387b;
+    box-shadow: 0 0 5px #0c387b;
+    outline: none;
+}
+
+button {    
+    padding: 10px 25px;
+    background: #5199d86f;
+    color: #0c387b;
+    text-decoration: none;
+    border-radius: 5px;
+    display: block;        
+    margin: 10px auto;    
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #29518eb4;
+}
+
+.user-card {
+    margin-top: 20px;
+    padding: 15px 20px;
+    background: #5199d86f;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px #0c387b;
+}
